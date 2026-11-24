@@ -1,0 +1,71 @@
+{
+  "rows_used": 2838,
+  "train_rows": 2270,
+  "test_rows": 568,
+  "random_state": 42,
+  "selected_model": "logistic_regression",
+  "selection_metric": "3-fold training-only macro F1",
+  "accuracy": 0.743,
+  "confusion_matrix": [
+    [
+      196,
+      74
+    ],
+    [
+      72,
+      226
+    ]
+  ],
+  "classification_report": {
+    "Not stressed": {
+      "precision": 0.7313432835820896,
+      "recall": 0.725925925925926,
+      "f1-score": 0.7286245353159851,
+      "support": 270.0
+    },
+    "Stress-related": {
+      "precision": 0.7533333333333333,
+      "recall": 0.7583892617449665,
+      "f1-score": 0.7558528428093646,
+      "support": 298.0
+    },
+    "accuracy": 0.7429577464788732,
+    "macro avg": {
+      "precision": 0.7423383084577114,
+      "recall": 0.7421575938354462,
+      "f1-score": 0.7422386890626749,
+      "support": 568.0
+    },
+    "weighted avg": {
+      "precision": 0.742880316726228,
+      "recall": 0.7429577464788732,
+      "f1-score": 0.7429098093177934,
+      "support": 568.0
+    }
+  },
+  "model_comparison": {
+    "logistic_regression": {
+      "cv_f1_macro_mean": 0.7538,
+      "cv_f1_macro_std": 0.0169,
+      "fold_scores": [
+        0.7765,
+        0.7359,
+        0.7489
+      ]
+    },
+    "complement_naive_bayes": {
+      "cv_f1_macro_mean": 0.7295,
+      "cv_f1_macro_std": 0.0085,
+      "fold_scores": [
+        0.7414,
+        0.7221,
+        0.7252
+      ]
+    }
+  },
+  "label_meaning": {
+    "0": "not strongly stress-related",
+    "1": "stress-related"
+  },
+  "warning": "This is a text-pattern estimate, not a medical diagnosis."
+}

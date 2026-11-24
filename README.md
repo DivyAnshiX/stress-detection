@@ -1,3 +1,11 @@
+# 🧠 Stress Detection using Machine Learning
+
+A machine learning web application that predicts stress levels from user text using NLP techniques and Streamlit.
+
+## 🌐 Live Demo
+
+🔗 https://YOUR-STREAMLIT-LINK.streamlit.app
+
 # Stress Check
 
 Stress Check is a small NLP project that reads a piece of text and estimates whether it looks stress-related. I started this from the `final.ipynb` experiment and kept the first usable version intentionally straightforward instead of hiding everything behind a large language model.
